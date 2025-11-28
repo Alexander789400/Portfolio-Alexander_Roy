@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Roy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION WITH IMAGE LEFT -->
+    <section class="hero">
+        <div class="hero-img">
+            <img src="My_picture.png" alt="profile-img">
+        </div>
+
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Alexander Roy</span></h1>
+            <p>AI Engineer | ML Developer | Data Scientist</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about" class="section fade">
+        <h2>About Me</h2>
+        <p>
+            Passionate Machine Learning and Data Science enthusiast specializing in end-to-end 
+            AI solutions, model deployment, Flask APIs, Docker environments and analytical dashboards.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section fade">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span>Python</span><span>Machine Learning</span><span>Deep Learning</span>
+            <span>Power BI</span><span>Excel</span>
+            <span>HTML,CSS,JavaScript</span>
+            <span>Flask API</span><span>Docker</span><span>SQL</span><span>GitHub</span>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section fade">
+        <h2>Projects</h2>
+        <div class="projects-container">
+
+            <div class="project-card">
+                <img src="images.jpg">
+                <h3>AI Circular Economy Tracker</h3>
+                <p>Built a full-stack sustainability prediction system using Ridge Regression and Logistic Regression to estimate circularity score and classify waste levels based on industrial production parameters. Deployed via Flask with real-time recommendations and interactive-UI.</p>
+                <a href="https://github.com/Alexander789400/AI-driven-Circular-Economy-Tracker" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/project2.jpg">
+                <h3>Flask ML API + Docker</h3>
+                <p>Complete micro-service container deployment.</p>
+                <a href="https://github.com" target="_blank">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/project3.jpg">
+                <h3>SMOTE Classification Model</h3>
+                <p>Balanced model improving class recall & F1 score.</p>
+                <a href="https://github.com" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section fade">
+        <h2>Contact Me</h2>
+
+        <form action="mailto:yourEmail@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Type message..." required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <br>
+        <br>
+        <br>
+
+        <div class="contact-links">
+            <a href="mailto:yourEmail@gmail.com">📩 Email Me</a>
+            <a href="https://github.com" target="_blank">💻 GitHub</a>
+            <a href="https://linkedin.com" target="_blank">🔗 LinkedIn</a>
+        </div>
+    </section>
+
+    <footer>© 2025 Alexander Roy | All Rights Reserved</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
