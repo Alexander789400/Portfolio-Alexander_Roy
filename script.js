@@ -1,14 +1,49 @@
-// smooth fade-in scroll animation
-const sections = document.querySelectorAll('.fade');
+// =============================
+// Fade-in Animation on Scroll
+// =============================
 
-function revealOnScroll(){
-    sections.forEach(sec=>{
-        let top = sec.getBoundingClientRect().top;
-        if(top < window.innerHeight - 100){
-            sec.classList.add("show");
-        }
+const sections = document.querySelectorAll(".fade");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+
+        // Optional: stop observing once visible (better performance)
+        observer.unobserve(entry.target);
+      }
+
     });
-}
-window.addEventListener("scroll", revealOnScroll);
-revealOnScroll();
+  },
+  {
+    threshold: 0.15
+  }
+);
 
+// Observe all fade sections
+sections.forEach((section) => {
+  observer.observe(section);
+});
+
+
+// =============================
+// Smooth Scroll for Navbar
+// =============================
+
+document.querySelectorAll("nav a").forEach(anchor => {
+
+  anchor.addEventListener("click", function (e) {
+
+    e.preventDefault();
+
+    const target = document.querySelector(this.getAttribute("href"));
+
+    target.scrollIntoView({
+      behavior: "smooth"
+    });
+
+  });
+
+});
