@@ -1,125 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexander Roy | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexander Roy | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- HERO SECTION WITH IMAGE LEFT -->
-    <section class="hero">
-        <div class="hero-img">
-            <img src="Alexander_Profile.png" alt="profile-img">
-        </div>
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-img">
+        <img src="Alexander_Profile.png" alt="profile-img">
+    </div>
 
-        <div class="hero-text">
-            <h1>Hello, I'm <span>Alexander Roy</span></h1>
-            <p>AI Engineer | ML Developer | Data Scientist</p>
-            <a href="#projects" class="btn">View My Projects</a>
-        </div>
-    </section>
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Alexander Roy</span></h1>
+        <p>AI Engineer | ML Developer | Data Scientist</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </div>
+</section>
 
-    <!-- NAVBAR -->
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<!-- NAVBAR -->
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#experience">Experience</a>
+<a href="#contact">Contact</a>
+</nav>
 
-    <!-- ABOUT -->
-    <section id="about" class="section fade">
-        <h2>About Me</h2>
-        <p>
-            Self-motivated and detail-oriented aspiring Data Scientist / AI Engineer with hands-on experience in developing end-to-end AI applications. Passionate about building scalable, real-world solutions and continuously improving technical expertise. Seeking an entry-level opportunity in AI or Data Science to contribute to impactful projects and grow professionally.</p>
-    </section>
+<!-- ABOUT -->
+<section id="about" class="section fade">
+<h2>About Me</h2>
+<p>
+Self-motivated and detail-oriented aspiring Data Scientist / AI Engineer with hands-on experience in developing end-to-end AI applications. Passionate about building scalable, real-world solutions and continuously improving technical expertise. Seeking an entry-level opportunity in AI or Data Science to contribute to impactful projects and grow professionally.
+</p>
+</section>
 
-    <section id="education" class="section fade">
-        <h2>Education</h2>
-        <div class="education">
-            <h4>• Diploma in Artificial Intelligence and Data Engineering - Learn Logic AI, <span>2025 - 2026</span></h4>
-            <h4>• Bachelor of Arts in Economics (Honours) - IGNOU, <span>2023 – Present</span></h4>
-            <h4>• ACCA (UK) – Association of Chartered Certified Accountants <span>2019 – Present</span></h4>
-                <p>– Completed 4/13 Exams.</p>
-        </div>
-    </section>
+<!-- EDUCATION -->
+<section id="education" class="section fade">
+<h2>Education</h2>
 
-    <section id="experience" class="section fade">
-        <h2>Experience</h2>
-        <div class="experience">
-            <p></p>
-        </div>
+<div class="education-container">
 
-    </section>
+<div class="edu-card">
+<h3>Diploma in Artificial Intelligence & Data Engineering</h3>
+<h4>Learn Logic AI</h4>
+<span class="edu-date">2025 – 2026</span>
+<p>
+Specialized training in Artificial Intelligence, Machine Learning and Data Engineering with practical project experience.
+</p>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section fade">
-        <h2>Technical Skills</h2>
-        <div class="skills">
-            <span>Python</span><span>Machine Learning</span><span>Deep Learning</span><span>EDA</span>
-            <span>Pandas</span><span>Seaborn</span><span>NumPy</span><span>SQLite</span><span>Statistics</span><span>Matplotlib</span>
-            <span>Generative AI</span><span>Computer Vision</span><span>Agentic AI</span>
-            <span>Power BI</span><span>Excel</span>
-            <span>HTML,CSS,JavaScript</span>
-            <span>Flask API</span><span>Docker</span><span>MYSQL</span><span>GitHub</span>
-        </div>
-    </section>
+<ul>
+<li>Machine Learning & Deep Learning</li>
+<li>Python, PyTorch, TensorFlow</li>
+<li>Natural Language Processing</li>
+<li>Computer Vision Applications</li>
+</ul>
+</div>
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="section fade">
-        <h2>Projects</h2>
-        <div class="projects-container">
+<div class="edu-card">
+<h3>Bachelor of Arts in Economics (Honours)</h3>
+<h4>Indira Gandhi National Open University (IGNOU)</h4>
+<span class="edu-date">2023 – Present</span>
+<p>
+Building analytical and quantitative reasoning skills through economic theory and statistical analysis.
+</p>
 
-            <div class="project-card">
-                <img src="images.jpg">
-                <h3>AI Circular Economy Tracker</h3>
-                <p>Built a full-stack sustainability prediction system using Ridge Regression and Logistic Regression to estimate circularity score and classify waste levels based on industrial production parameters. Deployed via Flask with real-time recommendations and interactive-UI.</p>
-                <a href="https://github.com/Alexander789400/AI-driven-Circular-Economy-Tracker" target="_blank">View Project</a>
-            </div>
+<ul>
+<li>Microeconomics & Macroeconomics</li>
+<li>Statistical Analysis</li>
+<li>Economic Data Interpretation</li>
+</ul>
+</div>
 
-            <div class="project-card">
-                <img src="images2.jpg">
-                <h3>AI-Powered Tokyo Travel Architect (Multimodal RAG System)</h3>
-                <p>Built a production style multimodal RAG system that generates structured, evidence-grounded Tokyo travel itineraries using semantic search and strict prompt grounding to reduce hallucination. Implemented hybrid budget reasoning, trip duration detection, vector similarity retrieval, and LLM failover architecture (Gemini + Groq) with automatic Google Maps link injection.</p>
-                <a href="https://github.com/Alexander789400/AI-Powered-Tokyo-Travel-Architect-Multimodal-RAG-System-" target="_blank">View Project</a>
-            </div>
+<div class="edu-card">
+<h3>ACCA – Association of Chartered Certified Accountants</h3>
+<h4>ACCA (United Kingdom)</h4>
+<span class="edu-date">2019 – Present</span>
 
-            <div class="project-card">
-                <img src="assets/project3.jpg">
-                <h3>SMOTE Classification Model</h3>
-                <p>Balanced model improving class recall & F1 score.</p>
-                <a href="https://github.com" target="_blank">View Project</a>
-            </div>
-        </div>
-    </section>
+<p>Professional qualification in accounting, finance and business management.</p>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section fade">
-        <h2>Contact Me</h2>
+<ul>
+<li>Completed 4 / 13 professional exams</li>
+<li>Financial Reporting</li>
+<li>Management Accounting</li>
+<li>Business & Corporate Law</li>
+</ul>
 
-        <form action="https://mail.google.com/mail/?view=cm&fs=1&to=alexk.k457roy@gmail.com" method="POST" enctype="text/plain">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Type message..." required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <br>
-        <br>
-        <br>
+</div>
 
-        <div class="contact-links">
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alexk.k457roy@gmail.com">📩 Email Me</a>
-            <a href="https://github.com/Alexander789400" target="_blank">💻 GitHub</a>
-            <a href="http://linkedin.com/in/alexander-roy-570456191" target="_blank">🔗 LinkedIn</a>
-        </div>
-    </section>
+</div>
+</section>
 
-    <footer>© 2025 Alexander Roy | All Rights Reserved</footer>
+<!-- EXPERIENCE -->
+<section id="experience" class="section fade">
+<h2>Experience</h2>
 
-    <script src="script.js"></script>
+<div class="experience-container">
+
+<div class="exp-card">
+
+<h3>AI / Machine Learning Intern</h3>
+
+<h4>SR India – QSkill Virtual Internship Program</h4>
+
+<span class="exp-date">Jan 2026 – Feb 2026</span>
+
+<p>
+Completed a hands-on internship focused on developing practical machine learning workflows and real-world AI solutions.
+</p>
+
+<ul>
+<li>Performed data preprocessing, cleaning and feature engineering.</li>
+<li>Built and evaluated machine learning models using Python.</li>
+<li>Worked with Pandas, NumPy and Scikit-learn.</li>
+<li>Applied model evaluation metrics such as Accuracy, Precision, Recall and F1-score.</li>
+<li>Understood the complete ML pipeline from data preparation to model evaluation.</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section fade">
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<span>Python</span>
+<span>Machine Learning</span>
+<span>Deep Learning</span>
+<span>EDA</span>
+<span>Pandas</span>
+<span>Seaborn</span>
+<span>NumPy</span>
+<span>SQLite</span>
+<span>Statistics</span>
+<span>Matplotlib</span>
+<span>Generative AI</span>
+<span>Computer Vision</span>
+<span>Agentic AI</span>
+<span>Power BI</span>
+<span>Excel</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Flask API</span>
+<span>Docker</span>
+<span>MySQL</span>
+<span>GitHub</span>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section fade">
+
+<h2>Projects</h2>
+
+<div class="projects-container">
+
+<div class="project-card">
+<img src="images.jpg">
+<h3>AI Circular Economy Tracker</h3>
+<p>
+Built a full-stack sustainability prediction system using Ridge Regression and Logistic Regression to estimate circularity score and classify waste levels based on industrial production parameters.
+</p>
+<a href="https://github.com/Alexander789400/AI-driven-Circular-Economy-Tracker" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+<img src="images2.jpg">
+<h3>AI-Powered Tokyo Travel Architect (Multimodal RAG System)</h3>
+<p>
+Built a production-style multimodal RAG system that generates structured Tokyo travel itineraries using semantic search and strict prompt grounding to reduce hallucination.
+</p>
+<a href="https://github.com/Alexander789400/AI-Powered-Tokyo-Travel-Architect-Multimodal-RAG-System-" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+<img src="assets/project3.jpg">
+<h3>SMOTE Classification Model</h3>
+<p>Balanced model improving class recall and F1 score.</p>
+<a href="https://github.com" target="_blank">View Project</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section fade">
+
+<h2>Contact Me</h2>
+
+<form action="https://mail.google.com/mail/?view=cm&fs=1&to=alexk.k457roy@gmail.com" method="POST" enctype="text/plain">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<textarea name="message" placeholder="Type message..." required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<br><br><br>
+
+<div class="contact-links">
+
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=alexk.k457roy@gmail.com">📩 Email Me</a>
+
+<a href="https://github.com/Alexander789400" target="_blank">💻 GitHub</a>
+
+<a href="http://linkedin.com/in/alexander-roy-570456191" target="_blank">🔗 LinkedIn</a>
+
+</div>
+
+</section>
+
+<footer>© 2025 Alexander Roy | All Rights Reserved</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
