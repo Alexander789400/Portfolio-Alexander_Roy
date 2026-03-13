@@ -167,6 +167,9 @@ text-align:left;
 padding-left:18px;
 }
 
+.section fade a{
+color:rgb(17,252,64);
+}
 /* SKILLS */
 
 .skills span{
