@@ -280,19 +280,30 @@ Built a production-style multimodal RAG system that generates structured Tokyo t
 <!-- CONTACT -->
 <section id="contact" class="section fade">
 
-<h2><center>Contact Me</center></h2>
+  <h2><center>Contact Me</center></h2>
 
-<form action="https://mail.google.com/mail/?view=cm&fs=1&to=alexk.k457roy@gmail.com" method="POST" enctype="text/plain">
+  <form 
+    action="https://formsubmit.co/alexk.k457roy@gmail.com" 
+    method="POST" 
+    enctype="multipart/form-data"
+  >
 
-<input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name="name" placeholder="Your Name" required>
 
-<input type="email" name="email" placeholder="Your Email" required>
+    <input type="email" name="email" placeholder="Your Email" required>
 
-<textarea name="message" placeholder="Type message..." required></textarea>
+    <textarea name="message" placeholder="Type message..." required></textarea>
 
-<button type="submit">Send Message</button>
+    <!-- Hidden Settings -->
+    <input type="hidden" name="_subject" value="New Contact Message">
+    <input type="hidden" name="_captcha" value="false">
 
-</form>
+    <!-- Optional (redirect after submit) -->
+    <!-- <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html"> -->
+
+    <button type="submit">Send Message</button>
+
+  </form>
 
 <br><br><br>
 <center>
